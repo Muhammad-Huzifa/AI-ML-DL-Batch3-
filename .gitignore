@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
+*.pyo
 .ipynb_checkpoints/
+*.rar
 .DS_Store
-node_modules/
-.env
