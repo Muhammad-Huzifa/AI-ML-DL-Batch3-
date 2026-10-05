@@ -1,6 +1,38 @@
+# Python environments and caches
+.venv*/
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 .ipynb_checkpoints/
-*.rar
+.pytest_cache/
 .DS_Store
+*.rar
+
+# Local credentials and student submissions
+.env
+.env.*
+!.env.example
+student-submissions/
+
+# Downloads, training outputs, and model weights
+**/datasets/external/*
+!**/datasets/external/README.md
+**/code/*.csv
+**/code/**/*.csv
+**/code/*.npy
+**/code/**/*.npy
+**/code/*.npz
+**/code/**/*.npz
+**/code/*.txt
+**/code/**/*.txt
+**/code/*.png
+**/code/**/*.png
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt*
+logs/
+runs/
+checkpoints/
+artifacts/

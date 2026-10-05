@@ -1,0 +1,728 @@
+{
+  "source_commit": "4f52823ef31a842f003a31a215c542a306e5b4bc",
+  "files": [
+    {
+      "old_path": ".gitignore",
+      "new_path": ".gitignore",
+      "original_git_blob": "54d0539cdcee834204d5227cf07a49f9732d5a6c",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/AI_ML_DL_Week1_Day1_Practice_Live.ipynb",
+      "new_path": "modules/01-python/code/01_day1_practice.ipynb",
+      "original_git_blob": "722c637fb0ac868ea74e6842d02042618321b553",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/AI_ML_DL_Week1_Day2_Practice_Live.ipynb",
+      "new_path": "modules/01-python/code/02_day2_practice.ipynb",
+      "original_git_blob": "b4f9a849817f03509bf67c687a5eebf99510f5cc",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/Functions and file handling.ipynb",
+      "new_path": "modules/01-python/code/06_functions_and_files.ipynb",
+      "original_git_blob": "55bb93576245472c33f8c20316565083c7d0f8d9",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/NestedLoop.ipynb",
+      "new_path": "modules/01-python/code/05_nested_loops.ipynb",
+      "original_git_blob": "b8c5b4e53a7cf16a8d902d6bd25164eaf07609fa",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/OOP_Python_Notebook.ipynb",
+      "new_path": "modules/01-python/code/07_object_oriented_python.ipynb",
+      "original_git_blob": "01ed59c8565263cf73d44042b20179525dc5f9bd",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/Python_Dictionary_Practical_Beginner (1).ipynb",
+      "new_path": "modules/01-python/code/03_dictionaries.ipynb",
+      "original_git_blob": "980f8909055b5f3eaf800814182505ce45bc31ec",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/Python_Exercises_Students.ipynb",
+      "new_path": "modules/01-python/code/exercises/python_exercises.ipynb",
+      "original_git_blob": "2a8c69091567f154be83a7451c6e789613f9178a",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/Python_Practices_AI_Students class work.ipynb",
+      "new_path": "modules/01-python/code/exercises/class_practice.ipynb",
+      "original_git_blob": "d8b3901a541ffa1c762f217bb3af9423568f9ca5",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/Python_Set_Practical_Beginner.ipynb",
+      "new_path": "modules/01-python/code/04_sets.ipynb",
+      "original_git_blob": "731562f6ecbe4c3acbae0d2edab3a2805ec202e2",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/README.md",
+      "new_path": "modules/01-python/README.md",
+      "original_git_blob": "02b303c95054a6d43380ec508546019c76cf1578",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/complete task form 1 to 33.ipynb",
+      "new_path": "modules/01-python/code/exercises/tasks_01_to_33.ipynb",
+      "original_git_blob": "72836a2e177f0e208b99a60b91e26e94bea2ff7e",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/fundimintal tasks of AI form loop.ipynb",
+      "new_path": "modules/01-python/code/exercises/loop_tasks.ipynb",
+      "original_git_blob": "f1b862f2cad3aa8d4011db2cdb186ea61e365ee6",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/oops tasks.ipynb",
+      "new_path": "modules/01-python/code/exercises/oop_tasks.ipynb",
+      "original_git_blob": "a55e36a4de7b26268375dc145afed7f77d4f06a0",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/slides/AI_ML_DL_Week1_Day1.pptx",
+      "new_path": "modules/01-python/slides/source/01_day1.pptx",
+      "original_git_blob": "e95b7252fc30bf4c96909cb611706142f29bc6fe",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/slides/AI_ML_DL_Week1_Day2.pdf",
+      "new_path": "modules/01-python/slides/pdf/02_day2.pdf",
+      "original_git_blob": "40297b5588843d390a36819affcccd8ed9ad7df9",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/slides/Anaconda_VSCode_Setup_Guide.pptx",
+      "new_path": "modules/01-python/slides/source/00_environment_setup.pptx",
+      "original_git_blob": "b6794223c44859c482c5f9c8966eecfc53ba2b30",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/slides/OOP_Python_Teaching.pptx",
+      "new_path": "modules/01-python/slides/source/04_object_oriented_python.pptx",
+      "original_git_blob": "cfa408a1b8f399007dd30c169b531508a3a09be4",
+      "change": {}
+    },
+    {
+      "old_path": "01-Python/slides/Python_Functions_to_Exception_Handling.pptx",
+      "new_path": "modules/01-python/slides/source/03_functions_and_exceptions.pptx",
+      "original_git_blob": "b79f97999525f98b1e0b53430486db4ba8502857",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/Dataset/Book1.csv",
+      "new_path": "modules/02-numpy/datasets/Book1.csv",
+      "original_git_blob": "7c8b5372cc4842156d48e0c3b1dc85033e5c7382",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/Dataset/Book2.csv",
+      "new_path": "modules/02-numpy/datasets/Book2.csv",
+      "original_git_blob": "e70d878ebede9d9ff68b08e4a533c29324e82800",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/Dataset/Day4_NumPy_Notebook.ipynb",
+      "new_path": "modules/02-numpy/code/02_arrays_and_file_io.ipynb",
+      "original_git_blob": "1e755d659436b0d938a4f42b7630b78c5b7d8fa1",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 3
+      }
+    },
+    {
+      "old_path": "02-NumPy/Dataset/abid.csv",
+      "new_path": "modules/02-numpy/datasets/abid.csv",
+      "original_git_blob": "1ddffd048fbdacaf66823c5d180df55753aee1b9",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/Dataset/data.csv",
+      "new_path": "modules/02-numpy/datasets/data.csv",
+      "original_git_blob": "7edda44f8638ef22b2edebb932b812bb99f41b1b",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/Dataset/marks.csv",
+      "new_path": "modules/02-numpy/datasets/marks.csv",
+      "original_git_blob": "f69b1dfd1fc0b0004562d7f5b8cf818c6de8d5fb",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/Dataset/matrix.csv",
+      "new_path": "modules/02-numpy/datasets/matrix.csv",
+      "original_git_blob": "1f3c519f2bff3b3e0f83535cf3c22af0a3b46587",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/Introduction_to_NumPy.ipynb",
+      "new_path": "modules/02-numpy/code/01_introduction.ipynb",
+      "original_git_blob": "afdd1f2fdb1a95b1987fccfe4494136c9de1eb41",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/NumPy_Fancy_Indexing.ipynb",
+      "new_path": "modules/02-numpy/code/03_fancy_indexing.ipynb",
+      "original_git_blob": "0cce92155bd1fb1062d3007feb78ad5c8b8ec8ac",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 1
+      }
+    },
+    {
+      "old_path": "02-NumPy/README.md",
+      "new_path": "modules/02-numpy/README.md",
+      "original_git_blob": "fc3ffbfee9805a10522bce73a6ddaef981e887e7",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/Slides/Day4_NumPy_Teaching.pptx",
+      "new_path": "modules/02-numpy/slides/source/02_arrays_and_file_io.pptx",
+      "original_git_blob": "c409768a69730e3ce1950d3148be9246fdd9d59c",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/Slides/Introduction_to_NumPy.pptx",
+      "new_path": "modules/02-numpy/slides/source/01_introduction.pptx",
+      "original_git_blob": "4740b916270764bc8dc1896c57b8cdaaf0544119",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/navtac exercises numpy/exercise numpy.ipynb",
+      "new_path": "modules/02-numpy/code/exercises/array_file_exercises.ipynb",
+      "original_git_blob": "b4b4bf6cf7052a96c396e86544e0904a9fb9f1d6",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/navtac exercises numpy/exercise2.ipynb",
+      "new_path": "modules/02-numpy/code/exercises/array_exercises_2.ipynb",
+      "original_git_blob": "5df25e17e8712ed440ee4fe8e87be8d9fb6cc2a6",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/navtac exercises numpy/marks.csv",
+      "new_path": "modules/02-numpy/datasets/exercise_outputs/marks.csv",
+      "original_git_blob": "dd3acbf3e190f6fee531e11414c9f1f617c8248d",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/navtac exercises numpy/sales.npy",
+      "new_path": "modules/02-numpy/datasets/exercise_outputs/sales.npy",
+      "original_git_blob": "7e578fb4656c08346310de2d93918fed415619a4",
+      "change": {}
+    },
+    {
+      "old_path": "02-NumPy/navtac exercises numpy/student_data.npz",
+      "new_path": "modules/02-numpy/datasets/exercise_outputs/student_data.npz",
+      "original_git_blob": "07a512b02aee7b49d8c5937c51c841046065ed1f",
+      "change": {}
+    },
+    {
+      "old_path": "03-Pandas/Dataset/heart_disease.csv",
+      "new_path": "modules/03-pandas/datasets/heart_disease.csv",
+      "original_git_blob": "4a0263edd4e97879141bce0873d6ad43a9b3122c",
+      "change": {}
+    },
+    {
+      "old_path": "03-Pandas/NumPy_Fancy_Indexing.ipynb",
+      "new_path": "modules/02-numpy/code/archive/fancy_indexing_from_pandas.ipynb",
+      "original_git_blob": "24232e421199ddb19bd3707c00cd8f64702d4f82",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 1
+      }
+    },
+    {
+      "old_path": "03-Pandas/Panda_Assignment.ipynb",
+      "new_path": "modules/03-pandas/code/exercises/data_cleaning.ipynb",
+      "original_git_blob": "8a30c5fb9272b805240774ca396175a08689ad68",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 2
+      }
+    },
+    {
+      "old_path": "03-Pandas/Pandas_Examples.ipynb",
+      "new_path": "modules/03-pandas/code/01_dataframe_examples.ipynb",
+      "original_git_blob": "3778d41ece44361f22d13026c2c43fd833808a02",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 2
+      }
+    },
+    {
+      "old_path": "03-Pandas/Pandas_With Real Dataset.ipynb",
+      "new_path": "modules/03-pandas/code/02_diabetes_analysis.ipynb",
+      "original_git_blob": "794f1edcb115c8ec7345fc19111721b2da32700a",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 3
+      }
+    },
+    {
+      "old_path": "03-Pandas/README.md",
+      "new_path": "modules/03-pandas/README.md",
+      "original_git_blob": "f38670d822e071e0734d9d5e59670516a2cc0215",
+      "change": {}
+    },
+    {
+      "old_path": "03-Pandas/Slide/Pandas_RA_Muhammad_Huzifa.pptx",
+      "new_path": "modules/03-pandas/slides/source/01_pandas.pptx",
+      "original_git_blob": "37e0a5ced26e8bb79bda449f14ea2bba6508c1c6",
+      "change": {}
+    },
+    {
+      "old_path": "03-Pandas/exercsise pandas.ipynb",
+      "new_path": "modules/03-pandas/code/exercises/pandas_practice.ipynb",
+      "original_git_blob": "6762d649d8ddb0c4be43342dae15bf419ebce79b",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 3
+      }
+    },
+    {
+      "old_path": "04-Matplotlib/Dataset/diabetes.csv",
+      "new_path": "modules/04-data-visualization/datasets/diabetes.csv",
+      "original_git_blob": "dcaf5fe82ee569c059840133035a79aa0c852cfc",
+      "change": {}
+    },
+    {
+      "old_path": "04-Matplotlib/Matplotlib_Exercises.ipynb",
+      "new_path": "modules/04-data-visualization/code/exercises/matplotlib_practice.ipynb",
+      "original_git_blob": "e294d6fb0d99ccead70f1aa1a717d01f9b8c0511",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 1
+      }
+    },
+    {
+      "old_path": "04-Matplotlib/Matplotlib_Seaborn_Diabetes 1.ipynb",
+      "new_path": "modules/04-data-visualization/code/archive/diabetes_visualization_copy.ipynb",
+      "original_git_blob": "f283807ff044c3c36324fdc2f71e5ef0090b879e",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 1
+      }
+    },
+    {
+      "old_path": "04-Matplotlib/Matplotlib_Seaborn_Diabetes.ipynb",
+      "new_path": "modules/04-data-visualization/code/02_diabetes_visualization.ipynb",
+      "original_git_blob": "f283807ff044c3c36324fdc2f71e5ef0090b879e",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 1
+      }
+    },
+    {
+      "old_path": "04-Matplotlib/Matplotlib_Seaborn_Student_Exercises.ipynb",
+      "new_path": "modules/04-data-visualization/code/exercises/seaborn_practice.ipynb",
+      "original_git_blob": "d83b3666e6b3d03f8381a14ec1b8bf247593c6c2",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 1
+      }
+    },
+    {
+      "old_path": "04-Matplotlib/README.md",
+      "new_path": "modules/04-data-visualization/README.md",
+      "original_git_blob": "0c2eba2b2a5e37821eb51107a03c7ed02f2e5800",
+      "change": {}
+    },
+    {
+      "old_path": "04-Matplotlib/Slides/matplotlib_guide.pptx",
+      "new_path": "modules/04-data-visualization/slides/source/01_matplotlib.pptx",
+      "original_git_blob": "441b38c4fde98353924d7a2c1ee95e37b17d702c",
+      "change": {}
+    },
+    {
+      "old_path": "04-Matplotlib/matplotlib_complete_guide.ipynb",
+      "new_path": "modules/04-data-visualization/code/01_matplotlib_guide.ipynb",
+      "original_git_blob": "c8e10e76992c0d0afbe7d19a56f81159ec4ff8b3",
+      "change": {}
+    },
+    {
+      "old_path": "05-Statistics-Probability/README.md",
+      "new_path": "modules/05-statistics-and-probability/README.md",
+      "original_git_blob": "6dcfff25bd0f2193df839586838db98c88adbf41",
+      "change": {}
+    },
+    {
+      "old_path": "05-Statistics-Probability/Slides/Measure of Central tendency.pdf",
+      "new_path": "modules/05-statistics-and-probability/slides/pdf/03_central_tendency.pdf",
+      "original_git_blob": "c48caff2856e94d2f34ed14a100ce2d04b5bf173",
+      "change": {}
+    },
+    {
+      "old_path": "05-Statistics-Probability/Slides/Statistic and Probability 1.pptx",
+      "new_path": "modules/05-statistics-and-probability/slides/source/01_descriptive_statistics.pptx",
+      "original_git_blob": "7b1fedc8e8e6f98e232bad4cde0ffaa7e9a6d63f",
+      "change": {}
+    },
+    {
+      "old_path": "05-Statistics-Probability/Slides/Statistic and Probability2.pptx",
+      "new_path": "modules/05-statistics-and-probability/slides/source/02_probability.pptx",
+      "original_git_blob": "f4a2775d2b4c495bcc925b53b91953796d328d4e",
+      "change": {}
+    },
+    {
+      "old_path": "05-Statistics-Probability/Statistic and Probability_1.ipynb",
+      "new_path": "modules/05-statistics-and-probability/code/01_descriptive_statistics.ipynb",
+      "original_git_blob": "7ed4da57292617ef33d8cff093fe42e5d3953fef",
+      "change": {}
+    },
+    {
+      "old_path": "05-Statistics-Probability/Statistic and Probability_2.ipynb",
+      "new_path": "modules/05-statistics-and-probability/code/02_probability.ipynb",
+      "original_git_blob": "87e95ccc8ce2083b0b1aba713041d62dd5d3a97c",
+      "change": {}
+    },
+    {
+      "old_path": "06-ML/Dataset/data.csv",
+      "new_path": "modules/06-machine-learning/datasets/breast_cancer.csv",
+      "original_git_blob": "407af7079c9711633e3c9dcd773782023eff30f5",
+      "change": {}
+    },
+    {
+      "old_path": "06-ML/Linear Reg Example.ipynb",
+      "new_path": "modules/06-machine-learning/code/01_linear_regression_example.ipynb",
+      "original_git_blob": "cf9076d54eab97cef34453b5977e248e48fb2283",
+      "change": {}
+    },
+    {
+      "old_path": "06-ML/MNIST_Regularization.ipynb",
+      "new_path": "modules/07-deep-learning/code/ann/archive/mnist_regularization_from_ml.ipynb",
+      "original_git_blob": "34dc769e0753e7c372dfdf7141080ce81be4f49f",
+      "change": {}
+    },
+    {
+      "old_path": "06-ML/MNIST_Simple.ipynb",
+      "new_path": "modules/07-deep-learning/code/ann/03_mnist_simple.ipynb",
+      "original_git_blob": "34dc769e0753e7c372dfdf7141080ce81be4f49f",
+      "change": {}
+    },
+    {
+      "old_path": "06-ML/Multi_Linear_Reg.ipynb",
+      "new_path": "modules/06-machine-learning/code/03_multiple_linear_regression.ipynb",
+      "original_git_blob": "bb673a5a636ca62d198f69faff634995d43d0297",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 1
+      }
+    },
+    {
+      "old_path": "06-ML/Neural_Networks_Beginner.ipynb",
+      "new_path": "modules/07-deep-learning/code/ann/archive/beginner_from_ml.ipynb",
+      "original_git_blob": "fd6c8922982b23785cdc82c1b437792183c93779",
+      "change": {}
+    },
+    {
+      "old_path": "06-ML/Neural_Networks_Beginner1.ipynb",
+      "new_path": "modules/07-deep-learning/code/ann/archive/beginner_variant_from_ml.ipynb",
+      "original_git_blob": "fd6c8922982b23785cdc82c1b437792183c93779",
+      "change": {}
+    },
+    {
+      "old_path": "06-ML/Neural_Networks_with_Regularization.ipynb",
+      "new_path": "modules/07-deep-learning/code/ann/05_regularization_examples.ipynb",
+      "original_git_blob": "0b2e0e8dd831c86d42deb9d7c29ed6feab9f8e8b",
+      "change": {}
+    },
+    {
+      "old_path": "06-ML/README.md",
+      "new_path": "modules/06-machine-learning/README.md",
+      "original_git_blob": "c0f9a8ab453dfb8cc9b5de77244db3866ca20263",
+      "change": {}
+    },
+    {
+      "old_path": "06-ML/SVM_linear_and_poly_assignment.ipynb",
+      "new_path": "modules/06-machine-learning/code/04_svm_linear_and_polynomial.ipynb",
+      "original_git_blob": "0928ee5f81086390b02b546212d4d81cc54d1174",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 1
+      }
+    },
+    {
+      "old_path": "06-ML/ml_linear_regression01_Lec.ipynb",
+      "new_path": "modules/06-machine-learning/code/02_linear_regression_lecture.ipynb",
+      "original_git_blob": "5137c53a2d2d2daddad289249c0f9bb469485fd2",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 1
+      }
+    },
+    {
+      "old_path": "06-ML/ml_linear_regression01_Lec2.ipynb",
+      "new_path": "modules/06-machine-learning/code/archive/linear_regression_lecture_copy.ipynb",
+      "original_git_blob": "5137c53a2d2d2daddad289249c0f9bb469485fd2",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 1
+      }
+    },
+    {
+      "old_path": "06-ML/neural_network.ipynb",
+      "new_path": "modules/07-deep-learning/code/ann/06_neural_network_class_practice.ipynb",
+      "original_git_blob": "6f4ba285469fd942776027b3e1c93773f42635db",
+      "change": {}
+    },
+    {
+      "old_path": "06-ML/pdf/Logistics Regression_Calculation.pdf",
+      "new_path": "modules/06-machine-learning/slides/pdf/02_logistic_regression_calculations.pdf",
+      "original_git_blob": "9f0de944475502c049e94c0ade55e7ad58cddf00",
+      "change": {}
+    },
+    {
+      "old_path": "06-ML/pdf/ML_RA_Muhammad_Huzifa (2).pptx",
+      "new_path": "modules/06-machine-learning/slides/source/01_machine_learning.pptx",
+      "original_git_blob": "051ce5dcac0c4f46e601cc83924ef78398542825",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/ANN/ANN_TensorFlow_MNIST.ipynb",
+      "new_path": "modules/07-deep-learning/code/ann/04_tensorflow_mnist.ipynb",
+      "original_git_blob": "cf13b69e7206426f1547255c90ae5405150a9b33",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/ANN/NN_with_L1_and_L2_Regularization_Fixed.ipynb",
+      "new_path": "modules/07-deep-learning/code/ann/07_l1_l2_regularization.ipynb",
+      "original_git_blob": "602cad3ccbc43eb8ed0bb2ddd234bb82927c8a5d",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/ANN/Neural_Networks_Beginner.ipynb",
+      "new_path": "modules/07-deep-learning/code/ann/01_neural_networks_beginner.ipynb",
+      "original_git_blob": "fd6c8922982b23785cdc82c1b437792183c93779",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/ANN/Neural_Networks_Beginner1.ipynb",
+      "new_path": "modules/07-deep-learning/code/ann/02_neural_networks_variant.ipynb",
+      "original_git_blob": "fd6c8922982b23785cdc82c1b437792183c93779",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/ANN/Neural_network_Assignment_with_FashionDataset.ipynb",
+      "new_path": "modules/07-deep-learning/code/ann/archive/fashion_assignment_copy.ipynb",
+      "original_git_blob": "66e41ba7f8818afce2f634f700150200756e6237",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/ANN/Neural_network_Assignment_with_Regularization .ipynb",
+      "new_path": "modules/07-deep-learning/code/ann/archive/regularization_assignment_copy.ipynb",
+      "original_git_blob": "5085b7730467efaf2dc7c75572f7c6f7372d05be",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/CNN/AlexNet/DL_AlexNet.ipynb",
+      "new_path": "modules/07-deep-learning/code/cnn/02_alexnet.ipynb",
+      "original_git_blob": "0c1d6353850dfe553f4d6666842c7b715925fbc9",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/CNN/AlexNet/alexnet_explained.docx",
+      "new_path": "modules/07-deep-learning/slides/source/alexnet_notes.docx",
+      "original_git_blob": "5664f4440ba54b77403a4861cc4b91d6aba95ead",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/CNN/Lenet/LeNet_Deep_Dive.pptx",
+      "new_path": "modules/07-deep-learning/slides/source/01_lenet.pptx",
+      "original_git_blob": "c851a8c17b4b0f753d8c2eeca97f594867c8f0e2",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/CNN/Lenet/Lenet.ipynb",
+      "new_path": "modules/07-deep-learning/code/cnn/01_lenet.ipynb",
+      "original_git_blob": "36f4fd83215920c165de0969ede55069dcf02bd7",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/CNN/Resnet/fruit_classification_notebook.ipynb",
+      "new_path": "modules/07-deep-learning/code/cnn/05_fruit_classification.ipynb",
+      "original_git_blob": "b52e38b841ded5d7d275a48d76d9a8f15e4a9d64",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/CNN/Resnet/vgg16-and-resnet (1).ipynb",
+      "new_path": "modules/07-deep-learning/code/cnn/04_vgg16_and_resnet.ipynb",
+      "original_git_blob": "e5c8a9a22ae967223f22374dda3ded08c466340d",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/CNN/VGG16/VGG16_Deep_Dive.pptx",
+      "new_path": "modules/07-deep-learning/slides/source/02_vgg16.pptx",
+      "original_git_blob": "39a72a0c8121e6c432b389d22b3b745da19daaf6",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/CNN/VGG16/vgg16.ipynb",
+      "new_path": "modules/07-deep-learning/code/cnn/03_vgg16.ipynb",
+      "original_git_blob": "70a522e334d341ad694ad9d0a7a517f7d9f52ba4",
+      "change": {}
+    },
+    {
+      "old_path": "07-DL/README.md",
+      "new_path": "modules/07-deep-learning/README.md",
+      "original_git_blob": "e62ff9f8bbb76a95cbab6d4807e97d8f68fed75a",
+      "change": {}
+    },
+    {
+      "old_path": "08-NLP/README.md",
+      "new_path": "modules/08-natural-language-processing/README.md",
+      "original_git_blob": "917af12bb5fb7a3964cd4c78ad226d4fbc39883f",
+      "change": {}
+    },
+    {
+      "old_path": "08-NLP/RNN/product_reviews_mock_data.csv",
+      "new_path": "modules/08-natural-language-processing/datasets/product_reviews_mock_data.csv",
+      "original_git_blob": "10c7ad8557d720d1c4849f4690c81c333b473155",
+      "change": {}
+    },
+    {
+      "old_path": "08-NLP/RNN/w9d1 - Introduction to RNN.pptx",
+      "new_path": "modules/08-natural-language-processing/slides/source/01_recurrent_neural_networks.pptx",
+      "original_git_blob": "92cb9aa2f73c6962f307fc501edeca1186054f8c",
+      "change": {}
+    },
+    {
+      "old_path": "08-NLP/RNN/w9d1 - NLP using RNN.ipynb",
+      "new_path": "modules/08-natural-language-processing/code/01_rnn_sentiment_analysis.ipynb",
+      "original_git_blob": "1a160daa67c2986600913b7534f7cec40905ed95",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 1
+      }
+    },
+    {
+      "old_path": "AIMachineLearningDeapLearning -Outline.pdf",
+      "new_path": "docs/course-outline.pdf",
+      "original_git_blob": "b1b72cee5cad1441f0c79298101e22b678ff9867",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/DL/Resnet/Assignment_Sheet.docx",
+      "new_path": "assignments/07-deep-learning/instructions/fruit_classification.docx",
+      "original_git_blob": "807522b9abd4f44a6a2762f4ef126ed4413c4f80",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/DL/Resnet/Fruit_Classification_Assignment.ipynb",
+      "new_path": "assignments/07-deep-learning/code/04_fruit_classification.ipynb",
+      "original_git_blob": "6e724ef32e8ddf1ccb19a419ce7fa42c5d0df3ba",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/Linear-Regression/Linear Reg Assignment.ipynb",
+      "new_path": "assignments/06-machine-learning/code/01_linear_regression.ipynb",
+      "original_git_blob": "e51bc14a2b308e73e509e7d32e5d1a371dcec0e7",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/Logistic-Regression/Log Reg Assignment.ipynb",
+      "new_path": "assignments/06-machine-learning/code/02_logistic_regression.ipynb",
+      "original_git_blob": "06dc74a233efeb7796674ffa3d9e55e3d360b906",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/Neural-Networks/Neural_network_Assignment.ipynb",
+      "new_path": "assignments/07-deep-learning/code/01_neural_networks.ipynb",
+      "original_git_blob": "e456c90d34d82df9fe9a2cc253e75c12c599bcf2",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/Neural-Networks/Neural_network_Assignment_with_FashionDataset.ipynb",
+      "new_path": "assignments/07-deep-learning/code/02_fashion_mnist.ipynb",
+      "original_git_blob": "66e41ba7f8818afce2f634f700150200756e6237",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/Neural-Networks/Neural_network_Assignment_with_Regularization .ipynb",
+      "new_path": "assignments/07-deep-learning/code/03_regularization.ipynb",
+      "original_git_blob": "5085b7730467efaf2dc7c75572f7c6f7372d05be",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/OOP/OOP_Function_Assignment.ipynb",
+      "new_path": "assignments/01-python/code/oop_and_functions.ipynb",
+      "original_git_blob": "2a5e3a00012bb15f47f959748a060863aaae914d",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/Projects/ATM-Project/ATM_Project.pdf",
+      "new_path": "projects/atm/instructions/atm_project.pdf",
+      "original_git_blob": "9fad78cc6fad9ef10a09e174bd204b24a7547150",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/Projects/ATM-Project/account.py",
+      "new_path": "projects/atm/code/account.py",
+      "original_git_blob": "e642fd75be22dac45e2ebdbfebd66100c001205e",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/Projects/ATM-Project/atm.py",
+      "new_path": "projects/atm/code/atm.py",
+      "original_git_blob": "79bca8760619a656a2759757b28ed866dd224e50",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/Projects/ATM-Project/data.json",
+      "new_path": "projects/atm/code/data.json",
+      "original_git_blob": "44fccc1d5b2e78c6948d99a8a9a74df5dbf09b17",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/Projects/ATM-Project/main.py",
+      "new_path": "projects/atm/code/main.py",
+      "original_git_blob": "12c3bde29585e89b70b5a2d2c3b26baf97842c38",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/README.md",
+      "new_path": "assignments/README.md",
+      "original_git_blob": "23bf8b137e19ddb3ef0dd2f4f302fdc754c9c680",
+      "change": {}
+    },
+    {
+      "old_path": "Assignments/SVM/SVM_Assignment.ipynb",
+      "new_path": "assignments/06-machine-learning/code/03_svm.ipynb",
+      "original_git_blob": "3091cd2e8b952c2a540e0586117dcedd9f0bcb1e",
+      "change": {
+        "reason": "Portable dataset paths and cleared stale outputs",
+        "replacements": 1
+      }
+    },
+    {
+      "old_path": "README.md",
+      "new_path": "README.md",
+      "original_git_blob": "f7cf8f1b0472af0ab969924841144b6639dad9ea",
+      "change": {}
+    },
+    {
+      "old_path": "docs/NOTEBOOKS.md",
+      "new_path": "docs/NOTEBOOKS.md",
+      "original_git_blob": "d9a4b7fe9e3cd0057cc56fb7f254e99dd213346d",
+      "change": {}
+    },
+    {
+      "old_path": "requirements-deep-learning.txt",
+      "new_path": "requirements-deep-learning.txt",
+      "original_git_blob": "385b12a9bf2f46b3b473b3549d8cd21814da1c70",
+      "change": {}
+    },
+    {
+      "old_path": "requirements.txt",
+      "new_path": "requirements.txt",
+      "original_git_blob": "e2d05e05e9c7ef9a70d536d3ac067045c10f4256",
+      "change": {}
+    }
+  ]
+}

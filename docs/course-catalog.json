@@ -1,0 +1,770 @@
+{
+  "schema_version": 1,
+  "source_commit": "4f52823ef31a842f003a31a215c542a306e5b4bc",
+  "modules": [
+    {
+      "path": "modules/01-python",
+      "title": "Python foundations",
+      "summary": "Variables, control flow, collections, functions, files, exceptions, and object-oriented programming.",
+      "prerequisites": "Python 3.11; no data-science packages needed for the basic examples."
+    },
+    {
+      "path": "modules/02-numpy",
+      "title": "NumPy",
+      "summary": "Arrays, indexing, broadcasting, vectorized operations, and saving/loading numerical data.",
+      "prerequisites": "Python foundations; base environment. The image-indexing section also needs the image extra."
+    },
+    {
+      "path": "modules/03-pandas",
+      "title": "Pandas",
+      "summary": "Series and DataFrames, selection, missing values, grouping, and working with CSV/JSON data.",
+      "prerequisites": "Python and NumPy; base environment."
+    },
+    {
+      "path": "modules/04-data-visualization",
+      "title": "Data visualization",
+      "summary": "Matplotlib and Seaborn charts, distributions, and exploratory analysis of the diabetes teaching dataset.",
+      "prerequisites": "NumPy and Pandas; base environment."
+    },
+    {
+      "path": "modules/05-statistics-and-probability",
+      "title": "Statistics and probability",
+      "summary": "Descriptive statistics, measures of spread, probability, and sampling examples.",
+      "prerequisites": "NumPy and data visualization; base environment."
+    },
+    {
+      "path": "modules/06-machine-learning",
+      "title": "Machine learning",
+      "summary": "Linear and multiple regression, gradient descent, and linear/polynomial support vector machines.",
+      "prerequisites": "Pandas, statistics, and train/test evaluation; base environment."
+    },
+    {
+      "path": "modules/07-deep-learning",
+      "title": "Deep learning",
+      "summary": "Dense neural networks, MNIST, regularization, LeNet, AlexNet, VGG16, and ResNet examples.",
+      "prerequisites": "Machine learning; TensorFlow environment. Some CNN lessons require externally supplied images."
+    },
+    {
+      "path": "modules/08-natural-language-processing",
+      "title": "Natural language processing",
+      "summary": "Text preparation and sentiment classification using recurrent neural networks.",
+      "prerequisites": "Deep learning; TensorFlow environment. Start with the bundled mock product reviews."
+    }
+  ],
+  "notebooks": [
+    {
+      "path": "assignments/01-python/code/oop_and_functions.ipynb",
+      "title": "OOP and functions",
+      "kind": "Assignment",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "Assignments/OOP/OOP_Function_Assignment.ipynb"
+    },
+    {
+      "path": "assignments/06-machine-learning/code/01_linear_regression.ipynb",
+      "title": "Linear regression assignment",
+      "kind": "Assignment",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "Assignments/Linear-Regression/Linear Reg Assignment.ipynb"
+    },
+    {
+      "path": "assignments/06-machine-learning/code/02_logistic_regression.ipynb",
+      "title": "Logistic regression assignment",
+      "kind": "Assignment",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "Assignments/Logistic-Regression/Log Reg Assignment.ipynb"
+    },
+    {
+      "path": "assignments/06-machine-learning/code/03_svm.ipynb",
+      "title": "SVM assignment",
+      "kind": "Assignment",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "Assignments/SVM/SVM_Assignment.ipynb"
+    },
+    {
+      "path": "assignments/07-deep-learning/code/01_neural_networks.ipynb",
+      "title": "Neural network assignment",
+      "kind": "Assignment",
+      "runtime": "TensorFlow",
+      "note": "",
+      "original_path": "Assignments/Neural-Networks/Neural_network_Assignment.ipynb"
+    },
+    {
+      "path": "assignments/07-deep-learning/code/02_fashion_mnist.ipynb",
+      "title": "Fashion-MNIST assignment",
+      "kind": "Assignment",
+      "runtime": "TensorFlow download",
+      "note": "",
+      "original_path": "Assignments/Neural-Networks/Neural_network_Assignment_with_FashionDataset.ipynb"
+    },
+    {
+      "path": "assignments/07-deep-learning/code/03_regularization.ipynb",
+      "title": "Regularization assignment",
+      "kind": "Assignment",
+      "runtime": "TensorFlow download",
+      "note": "",
+      "original_path": "Assignments/Neural-Networks/Neural_network_Assignment_with_Regularization .ipynb"
+    },
+    {
+      "path": "assignments/07-deep-learning/code/04_fruit_classification.ipynb",
+      "title": "Fruit classification assignment",
+      "kind": "Assignment",
+      "runtime": "Student answers and external images",
+      "note": "",
+      "original_path": "Assignments/DL/Resnet/Fruit_Classification_Assignment.ipynb"
+    },
+    {
+      "path": "modules/01-python/code/01_day1_practice.ipynb",
+      "title": "Day 1 live practice",
+      "kind": "Worksheet",
+      "runtime": "Student answers required",
+      "note": "Contains intentionally blank assignments and TODO cells.",
+      "original_path": "01-Python/AI_ML_DL_Week1_Day1_Practice_Live.ipynb"
+    },
+    {
+      "path": "modules/01-python/code/02_day2_practice.ipynb",
+      "title": "Day 2 live practice",
+      "kind": "Worksheet",
+      "runtime": "Student answers required",
+      "note": "Contains intentionally blank assignments and TODO cells.",
+      "original_path": "01-Python/AI_ML_DL_Week1_Day2_Practice_Live.ipynb"
+    },
+    {
+      "path": "modules/01-python/code/03_dictionaries.ipynb",
+      "title": "Dictionaries",
+      "kind": "Lesson",
+      "runtime": "CPU sample",
+      "note": "",
+      "original_path": "01-Python/Python_Dictionary_Practical_Beginner (1).ipynb"
+    },
+    {
+      "path": "modules/01-python/code/04_sets.ipynb",
+      "title": "Sets",
+      "kind": "Lesson",
+      "runtime": "CPU sample",
+      "note": "",
+      "original_path": "01-Python/Python_Set_Practical_Beginner.ipynb"
+    },
+    {
+      "path": "modules/01-python/code/05_nested_loops.ipynb",
+      "title": "Nested loops",
+      "kind": "Lesson",
+      "runtime": "CPU sample",
+      "note": "",
+      "original_path": "01-Python/NestedLoop.ipynb"
+    },
+    {
+      "path": "modules/01-python/code/06_functions_and_files.ipynb",
+      "title": "Functions, files, and exceptions",
+      "kind": "Lesson",
+      "runtime": "Interactive classroom",
+      "note": "Some cells ask for input; text files are written in the notebook working directory.",
+      "original_path": "01-Python/Functions and file handling.ipynb"
+    },
+    {
+      "path": "modules/01-python/code/07_object_oriented_python.ipynb",
+      "title": "Object-oriented Python",
+      "kind": "Lesson",
+      "runtime": "Interactive classroom",
+      "note": "",
+      "original_path": "01-Python/OOP_Python_Notebook.ipynb"
+    },
+    {
+      "path": "modules/01-python/code/exercises/class_practice.ipynb",
+      "title": "Class practice",
+      "kind": "Exercise",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "01-Python/Python_Practices_AI_Students class work.ipynb"
+    },
+    {
+      "path": "modules/01-python/code/exercises/loop_tasks.ipynb",
+      "title": "Loop tasks",
+      "kind": "Exercise",
+      "runtime": "Instructions only",
+      "note": "",
+      "original_path": "01-Python/fundimintal tasks of AI form loop.ipynb"
+    },
+    {
+      "path": "modules/01-python/code/exercises/oop_tasks.ipynb",
+      "title": "Object-oriented tasks",
+      "kind": "Exercise",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "01-Python/oops tasks.ipynb"
+    },
+    {
+      "path": "modules/01-python/code/exercises/python_exercises.ipynb",
+      "title": "Python student exercises",
+      "kind": "Exercise",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "01-Python/Python_Exercises_Students.ipynb"
+    },
+    {
+      "path": "modules/01-python/code/exercises/tasks_01_to_33.ipynb",
+      "title": "Tasks 1–33",
+      "kind": "Exercise",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "01-Python/complete task form 1 to 33.ipynb"
+    },
+    {
+      "path": "modules/02-numpy/code/01_introduction.ipynb",
+      "title": "Introduction to NumPy",
+      "kind": "Lesson",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "02-NumPy/Introduction_to_NumPy.ipynb"
+    },
+    {
+      "path": "modules/02-numpy/code/02_arrays_and_file_io.ipynb",
+      "title": "Arrays and file I/O",
+      "kind": "Lesson",
+      "runtime": "Classroom",
+      "note": "Includes a deliberate header-parsing example; run cells with the instructor.",
+      "original_path": "02-NumPy/Dataset/Day4_NumPy_Notebook.ipynb"
+    },
+    {
+      "path": "modules/02-numpy/code/03_fancy_indexing.ipynb",
+      "title": "Fancy indexing and image arrays",
+      "kind": "Lesson",
+      "runtime": "Classroom with image extra",
+      "note": "",
+      "original_path": "02-NumPy/NumPy_Fancy_Indexing.ipynb"
+    },
+    {
+      "path": "modules/02-numpy/code/archive/fancy_indexing_from_pandas.ipynb",
+      "title": "Fancy indexing — former Pandas copy",
+      "kind": "Alternate copy",
+      "runtime": "Classroom with image extra",
+      "note": "Preserved from the Pandas directory; use the main NumPy lesson first.",
+      "original_path": "03-Pandas/NumPy_Fancy_Indexing.ipynb"
+    },
+    {
+      "path": "modules/02-numpy/code/exercises/array_exercises_2.ipynb",
+      "title": "Additional array exercises",
+      "kind": "Exercise",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "02-NumPy/navtac exercises numpy/exercise2.ipynb"
+    },
+    {
+      "path": "modules/02-numpy/code/exercises/array_file_exercises.ipynb",
+      "title": "Array and file exercises",
+      "kind": "Exercise",
+      "runtime": "CPU sample",
+      "note": "",
+      "original_path": "02-NumPy/navtac exercises numpy/exercise numpy.ipynb"
+    },
+    {
+      "path": "modules/03-pandas/code/01_dataframe_examples.ipynb",
+      "title": "DataFrame and JSON examples",
+      "kind": "Lesson",
+      "runtime": "CPU sample",
+      "note": "Small synthetic employees and product examples are included for file-loading cells.",
+      "original_path": "03-Pandas/Pandas_Examples.ipynb"
+    },
+    {
+      "path": "modules/03-pandas/code/02_diabetes_analysis.ipynb",
+      "title": "Pandas with the diabetes dataset",
+      "kind": "Lesson",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "03-Pandas/Pandas_With Real Dataset.ipynb"
+    },
+    {
+      "path": "modules/03-pandas/code/exercises/data_cleaning.ipynb",
+      "title": "Data cleaning exercise",
+      "kind": "Exercise",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "03-Pandas/Panda_Assignment.ipynb"
+    },
+    {
+      "path": "modules/03-pandas/code/exercises/pandas_practice.ipynb",
+      "title": "Pandas practice",
+      "kind": "Exercise",
+      "runtime": "Classroom",
+      "note": "Some cells are debugging tasks, including label versus position indexing.",
+      "original_path": "03-Pandas/exercsise pandas.ipynb"
+    },
+    {
+      "path": "modules/04-data-visualization/code/01_matplotlib_guide.ipynb",
+      "title": "Matplotlib guide",
+      "kind": "Lesson",
+      "runtime": "CPU sample",
+      "note": "",
+      "original_path": "04-Matplotlib/matplotlib_complete_guide.ipynb"
+    },
+    {
+      "path": "modules/04-data-visualization/code/02_diabetes_visualization.ipynb",
+      "title": "Matplotlib and Seaborn with diabetes data",
+      "kind": "Lesson",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "04-Matplotlib/Matplotlib_Seaborn_Diabetes.ipynb"
+    },
+    {
+      "path": "modules/04-data-visualization/code/archive/diabetes_visualization_copy.ipynb",
+      "title": "Diabetes visualization — alternate copy",
+      "kind": "Alternate copy",
+      "runtime": "Classroom",
+      "note": "Original copy retained; start with the main lesson.",
+      "original_path": "04-Matplotlib/Matplotlib_Seaborn_Diabetes 1.ipynb"
+    },
+    {
+      "path": "modules/04-data-visualization/code/exercises/matplotlib_practice.ipynb",
+      "title": "Matplotlib practice",
+      "kind": "Exercise",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "04-Matplotlib/Matplotlib_Exercises.ipynb"
+    },
+    {
+      "path": "modules/04-data-visualization/code/exercises/seaborn_practice.ipynb",
+      "title": "Seaborn student exercises",
+      "kind": "Exercise",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "04-Matplotlib/Matplotlib_Seaborn_Student_Exercises.ipynb"
+    },
+    {
+      "path": "modules/05-statistics-and-probability/code/01_descriptive_statistics.ipynb",
+      "title": "Descriptive statistics",
+      "kind": "Lesson",
+      "runtime": "CPU sample",
+      "note": "",
+      "original_path": "05-Statistics-Probability/Statistic and Probability_1.ipynb"
+    },
+    {
+      "path": "modules/05-statistics-and-probability/code/02_probability.ipynb",
+      "title": "Probability",
+      "kind": "Lesson",
+      "runtime": "CPU sample",
+      "note": "",
+      "original_path": "05-Statistics-Probability/Statistic and Probability_2.ipynb"
+    },
+    {
+      "path": "modules/06-machine-learning/code/01_linear_regression_example.ipynb",
+      "title": "A first linear regression example",
+      "kind": "Lesson",
+      "runtime": "CPU sample",
+      "note": "",
+      "original_path": "06-ML/Linear Reg Example.ipynb"
+    },
+    {
+      "path": "modules/06-machine-learning/code/02_linear_regression_lecture.ipynb",
+      "title": "Linear regression and gradient descent",
+      "kind": "Lesson",
+      "runtime": "External data",
+      "note": "The placement.csv classroom dataset is not in the original repository.",
+      "original_path": "06-ML/ml_linear_regression01_Lec.ipynb"
+    },
+    {
+      "path": "modules/06-machine-learning/code/03_multiple_linear_regression.ipynb",
+      "title": "Multiple linear regression",
+      "kind": "Lesson",
+      "runtime": "External data",
+      "note": "The original smart_healthcare_dataset1.csv must be supplied by the instructor.",
+      "original_path": "06-ML/Multi_Linear_Reg.ipynb"
+    },
+    {
+      "path": "modules/06-machine-learning/code/04_svm_linear_and_polynomial.ipynb",
+      "title": "Linear and polynomial SVMs",
+      "kind": "Exercise",
+      "runtime": "Classroom",
+      "note": "",
+      "original_path": "06-ML/SVM_linear_and_poly_assignment.ipynb"
+    },
+    {
+      "path": "modules/06-machine-learning/code/archive/linear_regression_lecture_copy.ipynb",
+      "title": "Linear regression lecture — alternate copy",
+      "kind": "Alternate copy",
+      "runtime": "External data",
+      "note": "Original alternate copy retained; needs placement.csv.",
+      "original_path": "06-ML/ml_linear_regression01_Lec2.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/ann/01_neural_networks_beginner.ipynb",
+      "title": "Neural networks for beginners",
+      "kind": "Lesson",
+      "runtime": "TensorFlow",
+      "note": "",
+      "original_path": "07-DL/ANN/Neural_Networks_Beginner.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/ann/02_neural_networks_variant.ipynb",
+      "title": "Neural network lesson variant",
+      "kind": "Lesson",
+      "runtime": "TensorFlow",
+      "note": "",
+      "original_path": "07-DL/ANN/Neural_Networks_Beginner1.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/ann/03_mnist_simple.ipynb",
+      "title": "MNIST simple dense network",
+      "kind": "Lesson",
+      "runtime": "TensorFlow download",
+      "note": "",
+      "original_path": "06-ML/MNIST_Simple.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/ann/04_tensorflow_mnist.ipynb",
+      "title": "TensorFlow MNIST classifier",
+      "kind": "Lesson",
+      "runtime": "TensorFlow download",
+      "note": "",
+      "original_path": "07-DL/ANN/ANN_TensorFlow_MNIST.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/ann/05_regularization_examples.ipynb",
+      "title": "Neural network regularization examples",
+      "kind": "Lesson",
+      "runtime": "TensorFlow",
+      "note": "",
+      "original_path": "06-ML/Neural_Networks_with_Regularization.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/ann/06_neural_network_class_practice.ipynb",
+      "title": "Neural network class practice",
+      "kind": "Exercise",
+      "runtime": "TensorFlow",
+      "note": "",
+      "original_path": "06-ML/neural_network.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/ann/07_l1_l2_regularization.ipynb",
+      "title": "L1 and L2 regularization",
+      "kind": "Lesson",
+      "runtime": "TensorFlow",
+      "note": "",
+      "original_path": "07-DL/ANN/NN_with_L1_and_L2_Regularization_Fixed.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/ann/archive/beginner_from_ml.ipynb",
+      "title": "Beginner neural networks — former ML copy",
+      "kind": "Alternate copy",
+      "runtime": "TensorFlow",
+      "note": "",
+      "original_path": "06-ML/Neural_Networks_Beginner.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/ann/archive/beginner_variant_from_ml.ipynb",
+      "title": "Beginner variant — former ML copy",
+      "kind": "Alternate copy",
+      "runtime": "TensorFlow",
+      "note": "",
+      "original_path": "06-ML/Neural_Networks_Beginner1.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/ann/archive/fashion_assignment_copy.ipynb",
+      "title": "Fashion-MNIST assignment — module copy",
+      "kind": "Alternate copy",
+      "runtime": "TensorFlow download",
+      "note": "Submit work using the copy in assignments/07-deep-learning.",
+      "original_path": "07-DL/ANN/Neural_network_Assignment_with_FashionDataset.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/ann/archive/mnist_regularization_from_ml.ipynb",
+      "title": "MNIST regularization — former ML copy",
+      "kind": "Alternate copy",
+      "runtime": "TensorFlow download",
+      "note": "The original file matches MNIST Simple; the explicit L1/L2 notebook is the regularization lesson.",
+      "original_path": "06-ML/MNIST_Regularization.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/ann/archive/regularization_assignment_copy.ipynb",
+      "title": "Regularization assignment — module copy",
+      "kind": "Alternate copy",
+      "runtime": "TensorFlow download",
+      "note": "Submit work using the copy in assignments/07-deep-learning.",
+      "original_path": "07-DL/ANN/Neural_network_Assignment_with_Regularization .ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/cnn/01_lenet.ipynb",
+      "title": "LeNet",
+      "kind": "Lesson",
+      "runtime": "TensorFlow download",
+      "note": "",
+      "original_path": "07-DL/CNN/Lenet/Lenet.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/cnn/02_alexnet.ipynb",
+      "title": "AlexNet",
+      "kind": "Lesson",
+      "runtime": "External images",
+      "note": "",
+      "original_path": "07-DL/CNN/AlexNet/DL_AlexNet.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/cnn/03_vgg16.ipynb",
+      "title": "VGG16",
+      "kind": "Lesson",
+      "runtime": "External images",
+      "note": "",
+      "original_path": "07-DL/CNN/VGG16/vgg16.ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/cnn/04_vgg16_and_resnet.ipynb",
+      "title": "VGG16 and ResNet comparison",
+      "kind": "Lesson",
+      "runtime": "External images",
+      "note": "",
+      "original_path": "07-DL/CNN/Resnet/vgg16-and-resnet (1).ipynb"
+    },
+    {
+      "path": "modules/07-deep-learning/code/cnn/05_fruit_classification.ipynb",
+      "title": "Fruit classification with ResNet50",
+      "kind": "Lesson",
+      "runtime": "External images",
+      "note": "",
+      "original_path": "07-DL/CNN/Resnet/fruit_classification_notebook.ipynb"
+    },
+    {
+      "path": "modules/08-natural-language-processing/code/01_rnn_sentiment_analysis.ipynb",
+      "title": "NLP and RNN sentiment analysis",
+      "kind": "Lesson",
+      "runtime": "TensorFlow; optional Kaggle extension",
+      "note": "The first section uses bundled mock reviews; the later section downloads a separate Kaggle dataset.",
+      "original_path": "08-NLP/RNN/w9d1 - NLP using RNN.ipynb"
+    }
+  ],
+  "dataset_references": [
+    {
+      "notebook": "modules/03-pandas/code/exercises/data_cleaning.ipynb",
+      "path": "modules/03-pandas/datasets/heart_disease.csv",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/03-pandas/code/exercises/pandas_practice.ipynb",
+      "path": "modules/03-pandas/datasets/heart_disease.csv",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/03-pandas/code/02_diabetes_analysis.ipynb",
+      "path": "modules/04-data-visualization/datasets/diabetes.csv",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/04-data-visualization/code/02_diabetes_visualization.ipynb",
+      "path": "modules/04-data-visualization/datasets/diabetes.csv",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/04-data-visualization/code/archive/diabetes_visualization_copy.ipynb",
+      "path": "modules/04-data-visualization/datasets/diabetes.csv",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/04-data-visualization/code/exercises/matplotlib_practice.ipynb",
+      "path": "modules/04-data-visualization/datasets/diabetes.csv",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/04-data-visualization/code/exercises/seaborn_practice.ipynb",
+      "path": "modules/04-data-visualization/datasets/diabetes.csv",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/06-machine-learning/code/04_svm_linear_and_polynomial.ipynb",
+      "path": "modules/06-machine-learning/datasets/breast_cancer.csv",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "assignments/06-machine-learning/code/03_svm.ipynb",
+      "path": "modules/06-machine-learning/datasets/breast_cancer.csv",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/02-numpy/code/03_fancy_indexing.ipynb",
+      "path": "modules/02-numpy/datasets/sample_grayscale.png",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/02-numpy/code/archive/fancy_indexing_from_pandas.ipynb",
+      "path": "modules/02-numpy/datasets/sample_grayscale.png",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/06-machine-learning/code/02_linear_regression_lecture.ipynb",
+      "path": "modules/06-machine-learning/datasets/external/placement.csv",
+      "availability": "external"
+    },
+    {
+      "notebook": "modules/06-machine-learning/code/archive/linear_regression_lecture_copy.ipynb",
+      "path": "modules/06-machine-learning/datasets/external/placement.csv",
+      "availability": "external"
+    },
+    {
+      "notebook": "modules/06-machine-learning/code/03_multiple_linear_regression.ipynb",
+      "path": "modules/06-machine-learning/datasets/external/smart_healthcare_dataset1.csv",
+      "availability": "external"
+    },
+    {
+      "notebook": "modules/03-pandas/code/01_dataframe_examples.ipynb",
+      "path": "modules/03-pandas/datasets/employees_sample.csv",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/03-pandas/code/01_dataframe_examples.ipynb",
+      "path": "modules/03-pandas/datasets/products_sample.json",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/02-numpy/code/02_arrays_and_file_io.ipynb",
+      "path": "modules/02-numpy/datasets/Book1.csv",
+      "availability": "bundled"
+    },
+    {
+      "notebook": "modules/08-natural-language-processing/code/01_rnn_sentiment_analysis.ipynb",
+      "path": "modules/08-natural-language-processing/datasets/product_reviews_mock_data.csv",
+      "availability": "bundled"
+    }
+  ],
+  "slide_exports": [
+    {
+      "source": "modules/01-python/slides/source/00_environment_setup.pptx",
+      "pdf": "modules/01-python/slides/pdf/00_environment_setup.pdf"
+    },
+    {
+      "source": "modules/01-python/slides/source/03_functions_and_exceptions.pptx",
+      "pdf": "modules/01-python/slides/pdf/03_functions_and_exceptions.pdf"
+    },
+    {
+      "source": "modules/02-numpy/slides/source/01_introduction.pptx",
+      "pdf": "modules/02-numpy/slides/pdf/01_introduction.pdf"
+    },
+    {
+      "source": "modules/04-data-visualization/slides/source/01_matplotlib.pptx",
+      "pdf": "modules/04-data-visualization/slides/pdf/01_matplotlib.pdf"
+    },
+    {
+      "source": "modules/05-statistics-and-probability/slides/source/01_descriptive_statistics.pptx",
+      "pdf": "modules/05-statistics-and-probability/slides/pdf/01_descriptive_statistics.pdf"
+    },
+    {
+      "source": "modules/08-natural-language-processing/slides/source/01_recurrent_neural_networks.pptx",
+      "pdf": "modules/08-natural-language-processing/slides/pdf/01_recurrent_neural_networks.pdf"
+    }
+  ],
+  "allowed_incomplete_cells": [
+    {
+      "notebook": "modules/01-python/code/01_day1_practice.ipynb",
+      "cell_index": 4,
+      "source_sha256": "22bc9f0eac0b03f1d3725c62fe5e07968527cea181deca6da235711b8f431908",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/01_day1_practice.ipynb",
+      "cell_index": 6,
+      "source_sha256": "f799ac111c26509b7f740adef90189da171c6f4abb4b30114d21af05adc5378c",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/01_day1_practice.ipynb",
+      "cell_index": 8,
+      "source_sha256": "e7e1a5309e17e21438d92ea5dec73576f738c0e6840aa273f0c57fe6d3629d49",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/01_day1_practice.ipynb",
+      "cell_index": 10,
+      "source_sha256": "dd86a17c830553d6f2a7491f561edc6810c43a7a4c17bc802a967dd2cecc192a",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/01_day1_practice.ipynb",
+      "cell_index": 12,
+      "source_sha256": "e8d8c05865ab6cb0e4facbe85c570a35ff805f77ec995acd57b531b0c624ec4d",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/01_day1_practice.ipynb",
+      "cell_index": 14,
+      "source_sha256": "dbe607335ae59c42664a15b32ae9d66194bec6bfdc4f6993676dbf2c8cee83d8",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/01_day1_practice.ipynb",
+      "cell_index": 16,
+      "source_sha256": "1b5ce04400b35ded97d8d0840830bdbbab953b24601ab9910b3dc829941bac4d",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/01_day1_practice.ipynb",
+      "cell_index": 18,
+      "source_sha256": "e0197053ea68397a527ec8d972b1bb6aa6f0832b865eb5cd659df6d8a619325d",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/02_day2_practice.ipynb",
+      "cell_index": 19,
+      "source_sha256": "493d7f63537e6b5d9a32e71ca30c5a822cf024a135ae3add3e1d4c1075c4d943",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/02_day2_practice.ipynb",
+      "cell_index": 22,
+      "source_sha256": "38085bea8d68629854968554efbb4538f9498b577b849e5e9525310425540d43",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/02_day2_practice.ipynb",
+      "cell_index": 25,
+      "source_sha256": "b45afbe7c5700491ec1cc5de5f4da18543872d7d7f72b186f9880c2d60167cab",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/02_day2_practice.ipynb",
+      "cell_index": 30,
+      "source_sha256": "ed4893f65447886f998db232697f10391ecacc260d1b17d1eb6aa8d8c8134f2b",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/02_day2_practice.ipynb",
+      "cell_index": 31,
+      "source_sha256": "618f1ce1eb8b06099c3da8b1550eabfa60e8a2529b5da6dde73fa5a29055ef6f",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/02_day2_practice.ipynb",
+      "cell_index": 32,
+      "source_sha256": "d6e1283eab8284864b01b112fd4080be9b86752d485ef395908187478c513a01",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/02_day2_practice.ipynb",
+      "cell_index": 33,
+      "source_sha256": "caca9cd8d14d7f5432716b8bbf462c0fbbd59e2d6dc87b6b2c0ecd7e98acdef6",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/02_day2_practice.ipynb",
+      "cell_index": 34,
+      "source_sha256": "3a9440b8988c1007ee70339d9809d68a18f8601b068abfcf7c378c05ec1d5000",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/02_day2_practice.ipynb",
+      "cell_index": 47,
+      "source_sha256": "268db03f20a4a8e5dfb459b85141b6351747d1b9241f496bd6bb1c98ed3c51c7",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/02_day2_practice.ipynb",
+      "cell_index": 49,
+      "source_sha256": "aad16dfce289d9d0731cce834b1e99ba1b2e4821e745a64b4a78157f61c796f6",
+      "reason": "Original student-answer placeholder"
+    },
+    {
+      "notebook": "modules/01-python/code/02_day2_practice.ipynb",
+      "cell_index": 51,
+      "source_sha256": "6dcd3f89dad1cb62b2bddfb8b31b20e2dca7509dffaaa8d65bec52863f414c73",
+      "reason": "Original student-answer placeholder"
+    }
+  ]
+}

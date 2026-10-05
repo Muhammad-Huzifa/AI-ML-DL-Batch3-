@@ -1,0 +1,2 @@
+-r base.txt
+opencv-python-headless>=4.8,<5
