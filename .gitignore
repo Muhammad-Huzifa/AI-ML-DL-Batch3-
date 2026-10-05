@@ -36,3 +36,7 @@ logs/
 runs/
 checkpoints/
 artifacts/
+
+# Temporary document conversion files
+.~lock.*
+*.tmp
