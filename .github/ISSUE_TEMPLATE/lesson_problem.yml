@@ -1,0 +1,22 @@
+name: Lesson problem
+description: Report a broken path, unclear explanation, or reproducible notebook error.
+title: "[Lesson]: "
+body:
+  - type: input
+    id: material
+    attributes:
+      label: Notebook or slide path
+      placeholder: modules/03-pandas/code/01_dataframe_examples.ipynb
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and steps to reproduce
+      description: Include the cell number, error text, Python version, and selected environment. Omit private information.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result

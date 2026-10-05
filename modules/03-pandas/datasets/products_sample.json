@@ -1,0 +1,32 @@
+[
+  {
+    "product": "Notebook",
+    "category": "Stationery",
+    "price": "12.50"
+  },
+  {
+    "product": "Pen",
+    "category": "Stationery",
+    "price": null
+  },
+  {
+    "product": "Mug",
+    "category": "Kitchen",
+    "price": "N/A"
+  },
+  {
+    "product": "Notebook",
+    "category": "Stationery",
+    "price": "12.50"
+  },
+  {
+    "product": "Lamp",
+    "category": "",
+    "price": "25.00"
+  },
+  {
+    "product": "Cable",
+    "category": "Electronics",
+    "price": " "
+  }
+]
