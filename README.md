@@ -20,8 +20,8 @@ Classroom notebooks, practice exercises, assignments, and slides taught by Muham
 Use Python 3.11 in a separate environment. Clone and open the project root:
 
 ```bash
-git clone https://github.com/Muhammad-Huzifa/AI-ML-DL-Batch3-.git
-cd AI-ML-DL-Batch3-
+git clone https://github.com/Muhammad-Huzifa/ai-ml-dl-course-batch-3.git
+cd ai-ml-dl-course-batch-3
 python -m venv .venv
 ```
 
